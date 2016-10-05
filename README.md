@@ -17,7 +17,7 @@ Head to https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=swg-idsd
 
 Currently the include path needs a little help finding things...
   
-5. sudo ln -s /home/<username>/dsdriver/include /include
+5. sudo ln -s /home/username/dsdriver/include /include
 
 Clone, compile and make the driver
 
@@ -25,7 +25,7 @@ Clone, compile and make the driver
 7. git clone https://github.com/dreamfactorysoftware/PDO_IBM-1.3.4-patched.git
 8. cd ~/PDO_IBM-1.3.4-patched
 9. phpize
-10. ./configure --with-pdo-ibm=/home/<username>/dsdriver/lib
+10. ./configure --with-pdo-ibm=/home/username/dsdriver/lib
 11. make
 12. make test (optional)
 13. sudo make install
